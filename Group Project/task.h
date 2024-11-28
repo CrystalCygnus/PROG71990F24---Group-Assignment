@@ -12,10 +12,11 @@ typedef struct task {
 } *PTASK, TASK;
 
 // Create
-TASK createTask(int ID, char* title);
+PTASK createTask(int ID, char* title);
 
 // Read
 void printTask(TASK task);
+void printTaskVerbose(TASK task);
 
 // Update
 void changeTitle(PTASK task);

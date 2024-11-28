@@ -4,16 +4,33 @@
 // Implementation for the task struct
 
 #include "task.h"
+#include "globals.h"
+#include "helpers.h"
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 // Create
-TASK createTask(int ID, char* title) {
+PTASK createTask(int ID, char* title) {
+	PTASK newTask = (PTASK)malloc(sizeof(TASK));
+	if (!newTask) {
+		fprintf(stderr, "error allocating memory\n");
+		exit(EXIT_FAILURE);
+	}
 
+	newTask->title = ".";
+	newTask->ID = ID;
+	newTask->title = copyString(title);
+	return newTask;
 }
 
 // Read
 void printTask(TASK task) {
+	printf("%s\n", task.title);
+}
 
+void printTaskVerbose(TASK task) {
+	printf("ID: %d\nTitle: %s\n", task.ID, task.title);
 }
 
 // Update
