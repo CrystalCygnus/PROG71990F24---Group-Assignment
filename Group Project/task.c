@@ -18,7 +18,6 @@ PTASK createTask(int ID, char* title) {
 		exit(EXIT_FAILURE);
 	}
 
-	newTask->title = ".";
 	newTask->ID = ID;
 	newTask->title = copyString(title);
 	return newTask;
