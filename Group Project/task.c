@@ -40,5 +40,6 @@ void changeTitle(PTASK task, char* newTitle) {
 
 // Delete
 void clearTask(PTASK task) {
-
+	free(task->title);
+	free(task);
 }
