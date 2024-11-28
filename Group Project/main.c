@@ -8,6 +8,7 @@
 
 int taskCount = 0;	// Probably not the best way of doing this, but I guess it works.
 // On save/load be sure to include a taskCount
+// Probably depricatable by the linked list of tasks
 
 void main() {
 
