@@ -18,3 +18,4 @@ char* copyString(char* originalString) {
 	strncpy(copiedString, originalString, strlen(originalString));
 	return copiedString;
 }
+

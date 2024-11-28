@@ -6,8 +6,21 @@
 #include "task.h"
 #include <stdio.h>
 
+int taskCount = 0;	// Probably not the best way of doing this, but I guess it works.
+// On save/load be sure to include a taskCount
+
 void main() {
-	char* title = "Finish project\0";
-	PTASK task1 = createTask(1, title);
+
+	char* title = "Finish project";
+	PTASK task1 = createTask(taskCount, title);
+	taskCount++;
 	printTaskVerbose(*task1);
+
+	changeTitle(task1, "And that other project");
+	printTaskVerbose(*task1);
+
+	title = "Oh heres another task!";
+	PTASK task2 = createTask(taskCount, title);
+	taskCount++;
+	printTaskVerbose(*task2);
 }

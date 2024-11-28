@@ -19,7 +19,7 @@ void printTask(TASK task);
 void printTaskVerbose(TASK task);
 
 // Update
-void changeTitle(PTASK task);
+void changeTitle(PTASK task, char* newTitle);
 
 // Delete
 void clearTask(PTASK task);

@@ -33,8 +33,9 @@ void printTaskVerbose(TASK task) {
 }
 
 // Update
-void changeTitle(PTASK task) {
-
+void changeTitle(PTASK task, char* newTitle) {
+	free(task->title);
+	task->title = copyString(newTitle);
 }
 
 // Delete
