@@ -43,7 +43,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Checklist">
+    <None Include="README">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

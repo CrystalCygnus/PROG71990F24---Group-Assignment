@@ -1,8 +1,16 @@
-[x]	1. add a new task
-[x]	2. delete an existing task
-[x]	3. update an existing task
-[x]	4. display single task
-[]	5. display range task
+Workload key:
+T - Takkyon
+N - Nasir
+D - Dylan
+
+* = important/needs a larger underlying system
+
+
+[T]	1. add a new task
+[T]	2. delete an existing task
+[T]	3. update an existing task
+[T]	4. display single task
+[]	5. display range task							*
 []	6. display all task
 []	7. search for task
 []	8. friendly/easy to use UI (or menu system)		*
