@@ -10,12 +10,12 @@ D - Dylan
 [T]	2. delete an existing task
 [T]	3. update an existing task
 [T]	4. display single task
-[]	5. display range task							*
-[]	6. display all task
-[]	7. search for task
-[]	8. friendly/easy to use UI (or menu system)		*
-[]	9. save accumulated data to disk
-[]	10. load accumulated data from disk
+[]	5. display range task							*	(T)
+[]	6. display all task									(T)
+[]	7. search for task									(T)
+[]	8. friendly/easy to use UI (or menu system)		*	(N/D)?
+[]	9. save accumulated data to disk				*	(N/D)?
+[]	10. load accumulated data from disk				*	(N/D)?
 	11. you may add additional features, increasing your group’s overall
 		mark to a maximum of 100%.
 

@@ -1,6 +1,6 @@
 // Group 3 - prog71990 - fall24
 // Group Project
-// task.c - created by Takkyon Kesselring, modified by ...
+// helpers.c 
 // Implementation for helpers
 
 #include "globals.h"

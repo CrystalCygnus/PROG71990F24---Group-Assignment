@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClInclude Include="globals.h" />
     <ClInclude Include="helpers.h" />
+    <ClInclude Include="list.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="task.h" />
   </ItemGroup>

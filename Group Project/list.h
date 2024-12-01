@@ -1,6 +1,6 @@
 // Group 3 - prog71990 - fall24
 // Group Project
-// globals.h 
+// list.h 
+// interface for the lists
 
-#define _CRT_SECURE_NO_WARNINGS
 #pragma once

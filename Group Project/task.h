@@ -1,6 +1,6 @@
 // Group 3 - prog71990 - fall24
 // Group Project
-// task.h - created by Takkyon Kesselring, modified by ...
+// task.h 
 // Interface for the task struct
 
 #pragma once
