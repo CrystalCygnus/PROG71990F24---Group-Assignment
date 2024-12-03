@@ -138,6 +138,7 @@
     <ClInclude Include="list.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="task.h" />
+    <ClInclude Include="taskList.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README" />
