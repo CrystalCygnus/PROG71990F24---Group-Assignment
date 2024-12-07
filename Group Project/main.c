@@ -8,7 +8,7 @@
 
 int taskCount = 0;	// Probably not the best way of doing this, but I guess it works.
 // On save/load be sure to include a taskCount
-// Probably depricatable by the linked list of tasks
+// Probably depricatable by a linked list of tasks
 
 void main() {
 
@@ -24,6 +24,13 @@ void main() {
 	taskCount++;
 	PTASK task2 = createTask(taskCount, title);
 	printTaskVerbose(*task2);
+
+	TASK taskList[] = { *task1, *task2 };
+
+	searchId(taskList, 2);
+	searchId(taskList, 3);
+	searchTitle(taskList, "And that other project", taskCount);
+	searchTitle(taskList, "Wait do we have another?", taskCount);
 
 	clearTask(task2);
 }

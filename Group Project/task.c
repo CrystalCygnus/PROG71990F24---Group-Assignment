@@ -29,7 +29,42 @@ void printTask(TASK task) {
 }
 
 void printTaskVerbose(TASK task) {
-	printf("ID: %d\nTitle: %s\n", task.ID, task.title);
+	printf("Title: %s\nID: %d\n", task.title, task.ID);
+}
+
+void searchId(TASK taskList[], int searchedId) {
+	int i = 0;
+
+	while (taskList[i].title != NULL) {
+		if (taskList[i].ID == searchedId) {
+			printTaskVerbose(taskList[i]);
+			return;
+		}
+		i++;
+		
+	}
+	printf("Task not found\n");
+	return;
+	
+}
+
+// Should taskCount in main be depricated, 
+// be sure to find some way to get the taskcount
+void searchTitle(TASK taskList[], char* searchedTitle, int taskCount) {
+
+	// Goes through every task comparing titles
+	// Prints if it finds a match
+	for (int i = 0; i < taskCount; i++) {
+		if (strcmp(taskList[i].title, searchedTitle) == 0) {
+			printTaskVerbose(taskList[i]);
+			return;
+		}
+		i++;
+
+	}
+	printf("Task not found\n");
+	return;
+
 }
 
 // Update

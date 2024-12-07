@@ -17,6 +17,8 @@ PTASK createTask(int ID, char* title);
 // Read
 void printTask(TASK task);
 void printTaskVerbose(TASK task);
+void searchId(TASK taskList[], int searchedId);
+void searchTitle(TASK taskList[], char* searchedTitle, int taskCount);
 
 // Update
 void changeTitle(PTASK task, char* newTitle);
