@@ -13,8 +13,10 @@ D - Dylan
 [D]	8. friendly/easy to use UI (or menu system)
 [D]	9. save accumulated data to disk				
 [D]	10. load accumulated data from disk				
-	11. you may add additional features, increasing your group’s overall
+	11. you may add additional features, increasing your groupâ€™s overall
 		mark to a maximum of 100%.
 
-NOTE TO NASIR:  PLEASE FILL THIS IN AND DELETE THIS LINE
-	[N]	a)
+
+	[N]	a)Task priority
+        [N]     b)Task due Date
+        [N]     c)Task Status(complete or pendind)
