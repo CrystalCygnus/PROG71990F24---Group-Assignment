@@ -3,9 +3,6 @@ T - Takkyon
 N - Nasir
 D - Dylan
 
-* = important/needs a larger underlying system
-
-
 [T]	1. add a new task
 [T]	2. delete an existing task
 [T]	3. update an existing task
@@ -21,5 +18,3 @@ D - Dylan
 
 NOTE TO NASIR:  PLEASE FILL THIS IN AND DELETE THIS LINE
 	[N]	a)
-	[N]	b)
-	[N]	c)
